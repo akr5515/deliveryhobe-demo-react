@@ -1,0 +1,28 @@
+.header-main {
+  margin-top: 40px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin: 0px -24px 20px;
+  padding: 0px 24px;
+}
+
+.header-name-left {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 700;
+}
+.header-name-left span {
+  color: rgb(255, 227, 63);
+}
+
+.header-figure-right {
+  cursor: pointer;
+  margin: 0px;
+}
+
+.header-figure-right img {
+  width: 74px;
+}

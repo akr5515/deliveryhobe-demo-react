@@ -1,0 +1,72 @@
+.search-main {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.search-second {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 10px;
+  padding: 6px 6px 6px 20px;
+  margin: 0px;
+}
+
+.search-third {
+  display: flex;
+  position: relative;
+}
+
+.search-left {
+  position: relative;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: text;
+  display: inline-flex;
+  font-size: 1rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-weight: 400;
+  line-height: 1.1876em;
+  letter-spacing: 0.00938em;
+}
+
+.MuiInputBase {
+  padding: 6px 0px;
+  font: inherit;
+  width: 100%;
+  border: 0;
+  height: 1.1876em;
+  margin: 0;
+  display: block;
+  min-width: 0;
+  background: none;
+  box-sizing: content-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.search-image-container {
+  top: 3px;
+  right: 16px;
+
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+}
+
+.search-image-svg {
+  overflow: hidden;
+  width: 24px;
+  height: 24px;
+  color: rgb(74, 74, 74);
+  display: inline-block;
+  vertical-align: middle;
+  flex-shrink: 0;
+  backface-visibility: hidden;
+}

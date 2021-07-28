@@ -1,0 +1,44 @@
+.top-container {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.btn-class {
+  display: flex;
+  padding: 0px;
+  line-height: inherit;
+  color: inherit;
+  cursor: pointer;
+  background: transparent;
+}
+
+.top-location {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+
+.location-name {
+  color: rgb(137, 137, 137);
+  cursor: pointer;
+  position: relative;
+}
+.location-name ::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  background: rgb(137, 137, 137);
+  left: 0px;
+  bottom: 4px;
+}
+
+.top-location img {
+  margin-left: 2px;
+  width: 15px;
+}

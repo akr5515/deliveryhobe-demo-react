@@ -1,0 +1,7 @@
+.main-container {
+  background: url(/src/assets/hobe-2.fabc2e8d.svg) center top/550px
+    rgb(23, 23, 23);
+  padding: 24px 24px 0px;
+  position: relative;
+  box-shadow: rgb(0 0 0 / 25%) 0px 2px 4px;
+}
